@@ -1,0 +1,28 @@
+{
+  "name": "google-drive",
+  "version": "1.0.0",
+  "description": "Just a Front-end clone of Google Drive",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "hot": "",
+    "server": "lite-server --baseDir=dist",
+    "ts_watch": "tsc -w",
+    "start": "concurrently \"npm run server\" \"npm run ts_watch\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelrener/GlegooDrive.git"
+  },
+  "author": "Samuel Rener",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelrener/GlegooDrive/issues"
+  },
+  "homepage": "https://github.com/samuelrener/GlegooDrive#readme",
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "lite-server": "^2.6.1",
+    "typescript": "^4.5.5"
+  }
+}
